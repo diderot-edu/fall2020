@@ -72,8 +72,20 @@ book:
 	$(PDFLATEX) --shell-escape --jobname="target" "\includeonly{$*}\input{book} ";
 	mv target.pdf $@
 
+intro: intro/intro.xml intro/intro.pdf
+upload_intro: NO=1
+upload_intro: FILE=intro/intro
+upload_intro: intro upload_xml_pdf
+
+
 equipment: equipment/equipment.xml equipment/equipment.pdf
-upload_equipment: NO=1
+upload_equipment: NO=2
 upload_equipment: FILE=equipment/equipment
 upload_equipment: equipment upload_xml_pdf
+
+
+displays: displays/displays.xml displays/displays.pdf
+upload_displays: NO=3
+upload_displays: FILE=displays/displays
+upload_displays: displays upload_xml_pdf
 
