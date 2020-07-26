@@ -1,5 +1,8 @@
 #*
 *~
-*.xml
 *.aux
 *.log
+*.out
+*.pdf
+*.xml
+
