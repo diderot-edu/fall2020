@@ -89,3 +89,9 @@ upload_displays: NO=3
 upload_displays: FILE=displays/displays
 upload_displays: displays upload_xml_pdf
 
+
+tas: tas/tas.xml tas/tas.pdf
+upload_tas: NO=4
+upload_tas: FILE=tas/tas
+upload_tas: tas upload_xml_pdf
+
