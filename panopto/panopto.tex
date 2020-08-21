@@ -1,45 +1,73 @@
 \chapter{Panopto}
 \label{ch:panopto}
 
+\begin{preamble}
+You have two good tools available for distribution of your lecture
+videos: Panopto and YouTube.  YouTube has recently been enabled with
+you CMU Andrew GSuite account is now available for distribution. 
+%
+
+We understand that recording and distributing lecture videos can be tedious and time consuming.  
+%
+We have therefore worked on automating some of these tasks.  In this
+chapter, we describe the Panopto system and some of the automation.
+%
+ 
+%
+We have also worked with our human resources department so that
+administrative assistant can help the faculty with some of these video
+recording and distribution tasks.
+%
+This administrative help is currently being piloted only in the
+Computer Science Department and may be extended to other departments
+depending on the outcomes.
+\end{preamble}
+
 \begin{gram}[Introduction]
 \label{grm:panopto:introduction}
-	Panopto is the preferred mechanism for sharing lecture videos with students. It was developed at CMU, in ISR.
 
-	Advantages:
+
+Panopto is a good mechanism for sharing lecture videos with students. 
+
+%It was developed at CMU, in ISR.
+
+Advantages of Panopto include 
 	\begin{itemize}
-		\item Panopto saves time. If you choose, Panopto can be integrated with Zoom: Zoom videos saved to the cloud will upload automatically to your personal Panopto folder. (Section~\ref{sec:panopto:zoom_to_panopto_integration_set_up})
+		\item Panopto can be integrated with Zoom: Zoom videos saved to the cloud will upload automatically to your personal Panopto folder. (Section~\ref{sec:panopto:zoom_to_panopto_integration_set_up})
 		\item Panopto enables easy and accessible cloud-based video editing. (Section~\ref{sec:panopto:editing_videos})
-		\item Panopto protects privacy. Panopto allows you to control who can access content: share videos publicly, restrict access to CMU affiliates, restrict access to students, etc. (Section~\ref{sec:panopto:file_transfer_and_access_permissions})
+		\item Panopto enables access control: you can share videos publicly, restrict access to CMU affiliates, restrict access to students, etc. (Section~\ref{sec:panopto:file_transfer_and_access_permissions})
 		\item You can assign others (e.g., admin staff, teaching assistants) access to your Panopto folders so that they can assist you with file transfers and releasing videos to students. (Section~\ref{sec:panopto:file_transfer_and_access_permissions})
 	\end{itemize}
+\end{gram}
+
 
 	\begin{note}[Help resources]
 		This page serves as a guide to get you started with Panopto and to help you utilize the features described above. If you still have questions, please contact the Video Services Team at \href{mailto:coursecast@cs.cmu.edu}{coursecast@cs.cmu.edu}.
 	\end{note}
-\end{gram}
 
 
 \section{Getting Started}
 \label{sec:panopto:getting_started}
 
 
+\begin{gram}
 For faculty, staff, and students:
 
 To gain access to Panopto, email Aaron Caldwell at \href{mailto:aaroncal@andrew.cmu.edu?subject=Creator Access}{aaroncal@andrew.cmu.edu}. Faculty, please also include your course number and course title in this email. Aaron will grant you Creator Access and will assign you a personal folder in which you can upload and save content. Faculty will also be assigned a course folder, where lecture content must be stored once it is ready to be released to students. \textbf{Note: These folders will both initially be \emph{private}, and you will need to adjust access permissions manually, as needed.} Two examples: (1) Professors must assign students access to their course folder so that students can view lectures. (2) Professors may choose to assign their administrative assistants access to their personal and course folders so that their admins can assist with releasing content to students. (See Section~\ref{sec:panopto:file_transfer_and_access_permissions}, ``File Transfer and Access Permissions''.)
 
 After Creator Access has been granted, log in to Panopto at \href{https://scs.hosted.panopto.com/}{https://scs.hosted.panopto.com/} using your Andrew ID and password.
-
+\end{gram}
 
 \section{User Interface}
 \label{sec:panopto:user_interface}
 
 \begin{gram}[Browsing the Panopto Video Library]
-	\begin{figure}[H]
-		\centering
-		\includegraphics[scale=0.5]{panopto/media/01-ui.png}
-	\end{figure}
 
-	The 5-minute video below introduces you to Panopto’s user interface and basic features.
+{
+\centering
+\includegraphics[scale=0.5]{panopto/media/01-ui.png}
+}
+The 5-minute video below introduces you to Panopto’s user interface and basic features.
 
 	\video{https://scs.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=0f611112-2f7b-4604-8ad6-abc8015c8ace&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all}{Tour of Video Library}
 \end{gram}
@@ -54,18 +82,15 @@ Uploading videos and releasing videos to students are time-consuming tasks. To s
 	It is important to record your Zoom videos with certain settings enabled. Navigate to \href{https://cmu.zoom.us/}{https://cmu.zoom.us/} and sign in with your Andrew ID and Password. Note that you must use your CMU Zoom account for the integration to work.
 
 	From the left-hand menu, choose ``Settings'' and select the ``Recording'' tab, as shown below.
-
-	\begin{figure}[H]
-		\centering
-		\includegraphics[scale=0.7]{panopto/media/03-recording.png}
-	\end{figure}
+{
+\centering
+\includegraphics[scale=0.7]{panopto/media/03-recording.png}
+}
 
 	The green highlighting in the screenshot below shows the recommended Zoom cloud recording settings for optimal performance. Make sure that your settings match this example.
-
-	\begin{figure}[H]
-		\centering
+{
 		\includegraphics[scale=0.5]{panopto/media/04-settings.png}
-	\end{figure}
+}
 \end{gram}
 
 \begin{gram}[Step 2/2]
@@ -82,20 +107,18 @@ Uploading videos and releasing videos to students are time-consuming tasks. To s
 
 \begin{gram}[Locating the ``Zoom Recordings'' Folder (1/2)]
 	Click on ``My Folder'' in the left-hand menu. Your ``Zoom Recordings'' folder will appear on the subsequent page, as shown in the screenshot below.
-
-	\begin{figure}[H]
+{
 		\centering
 		\includegraphics[scale=0.6]{panopto/media/05-my-folder.png}
-	\end{figure}
+}
 \end{gram}
 
 \begin{gram}[Locating the ``Zoom Recordings'' Folder (2/2)]
 	Click on your ``Zoom Recordings'' folder to find your Zoom cloud recordings. The screenshot below shows a Zoom cloud recording that has finished uploading to Panopto.
-
-	\begin{figure}[H]
+{
 		\centering
 		\includegraphics[scale=0.7]{panopto/media/06-zoom-recordings.png}
-	\end{figure}
+}
 \end{gram}
 
 \begin{gram}[Processing Time]
@@ -111,11 +134,10 @@ Uploading videos and releasing videos to students are time-consuming tasks. To s
 \label{sec:panopto:manually_uploading_videos}
 
 If you choose not to implement the Zoom-to-Panopto integration, then you must upload locally-saved recordings to Panopto by hand. To do this, click ``Create'' and click ``Upload Media'', as shown below.
-
-\begin{figure}[H]
+{
 	\centering
 	\includegraphics[scale=0.6]{panopto/media/07-create.png}
-\end{figure}
+}
 
 
 \section{Editing Videos --- Optional Step}
@@ -135,11 +157,15 @@ Common editing tasks:
 
 	\video{https://scs.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=e954eaed-4746-485d-b2c7-abc8015a6977&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all}{Video Editing Tutorial}
 
-	\begin{note}[Help resources]
-		If you --- a professor, staff member, or student --- need help with editing, please contact \href{mailto:coursecast@cs.cmu.edu}{coursecast@cs.cmu.edu}. The Video Services Team can answer questions and, if needed, schedule a meeting for hands-on instruction.
-	\end{note}
 \end{gram}
 
+\begin{note}[Help resources]
+If you---a professor, staff member, or student---need help with
+editing, please contact
+\href{mailto:coursecast@cs.cmu.edu}{coursecast@cs.cmu.edu}. The Video
+Services Team can answer questions and, if needed, schedule a meeting
+for hands-on instruction.
+\end{note}
 
 \section{File Transfer and Access Permissions}
 \label{sec:panopto:file_transfer_and_access_permissions}
@@ -157,7 +183,7 @@ Common editing tasks:
 \begin{gram}[Types of Access Permissions]
 	There are various levels of access that you can authorize. Review the possibilities below:
 
-	\begin{itemize}
+\begin{itemize}
 		\item \textbf{Are you using Canvas?} It is possible to integrate Canvas with Panopto. Canvas users who are enrolled in a Canvas course will be asked to authenticate their identities before watching a course video on Panopto. Please contact Aaron Caldwell at \href{mailto:aaroncal@andrew.cmu.edu?subject=Canvas and Panopto}{aaroncal@andrew.cmu.edu} to set up this feature.
 		\item \textbf{Specific people (i.e., restricted access).} Enter a list of specific Andrew IDs, i.e., your students’ IDs. This is a tedious task for large courses that require restricted access but are not on Canvas. To avoid having to enter your students’ IDs manually, contact Aaron Caldwell at \href{mailto:aaroncal@andrew.cmu.edu?subject=Restrict Course Access}{aaroncal@andrew.cmu.edu}. He will create an internal Panopto list of Andrew IDs in order to restrict course access to only course participants. In your email to Aaron, remember to note any teaching or administrative assistants who also require course access.
 		\item \textbf{``Anyone at your \emph{organization} with a link.''} Post the link to the video lectures anywhere on the web or distribute the link by email. Anyone with an Andrew ID can navigate to the link and view lecture content.
@@ -174,8 +200,8 @@ Common editing tasks:
 
 \begin{note}[Granting your admin/teaching staff access]
 	Faculty may choose to give their administrative and/or teaching assistant(s) access to their personal folders (e.g., their ``Zoom Recordings'' folder) so that their admin or TA(s) can assist with releasing content to students. This is useful if the instructor is unavailable when a video has finished uploading to the ``Zoom Recordings'' folder or to another personal folder. Their assistant can release the video (i.e., move the video to the course folder, as described above) on their behalf so that the video is available to students quickly.
+\end{note}
 
-	\begin{note}[Email notifications]
+\begin{note}[Email notifications]
 		Users assigned access to a Panopto folder should receive an email notification when a new video has finished uploading. This setting can be adjusted in ``User Settings''. \textit{If you plan to rely on this feature, please double check your ``User Settings'' to make sure that you are configured to receive email notifications.}
-	\end{note}
 \end{note}
