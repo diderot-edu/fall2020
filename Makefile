@@ -95,3 +95,8 @@ upload_tas: NO=4
 upload_tas: FILE=tas/tas
 upload_tas: tas upload_xml_pdf
 
+
+panopto: panopto/panopto.xml panopto/panopto.pdf
+upload_panopto: NO=5
+upload_panopto: FILE=panopto/panopto
+upload_panopto: panopto upload_xml_pdf
