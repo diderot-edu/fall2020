@@ -1,6 +1,6 @@
 # BEGIN: DIDEROT SETUP
 
-LABEL_COURSE="CMU:Pittsburgh, PA:15281:Fall:2020-21"
+LABEL_COURSE="CMU:Pittsburgh, PA:15XYZ:Fall:2020-21"
 
 ## Label for textbook
 LABEL_TEXTBOOK="admin"
