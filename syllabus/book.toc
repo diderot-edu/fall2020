@@ -1,0 +1,20 @@
+\contentsline {chapter}{\numberline {1}Syllabus and Policies}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Overview}{1}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}Key Information}{1}{subsection.1.1.1}% 
+\contentsline {section}{\numberline {1.2}Course Synopsis}{2}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Course Calendar}{2}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Office Hours}{2}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}Schedule}{2}{section.1.5}% 
+\contentsline {section}{\numberline {1.6}Recitations}{3}{section.1.6}% 
+\contentsline {section}{\numberline {1.7}Exams}{3}{section.1.7}% 
+\contentsline {section}{\numberline {1.8}Homework}{3}{section.1.8}% 
+\contentsline {section}{\numberline {1.9}Grading Policies}{3}{section.1.9}% 
+\contentsline {subsection}{\numberline {1.9.1}Late Policy}{4}{subsection.1.9.1}% 
+\contentsline {subsection}{\numberline {1.9.2} Collaboration Policy}{4}{subsection.1.9.2}% 
+\contentsline {section}{\numberline {1.10}Communication: Diderot, Email, Piazza}{4}{section.1.10}% 
+\contentsline {subsection}{\numberline {1.10.1}Diderot}{5}{subsection.1.10.1}% 
+\contentsline {subsection}{\numberline {1.10.2}When to email staff}{5}{subsection.1.10.2}% 
+\contentsline {section}{\numberline {1.11}Pandemic Policies}{6}{section.1.11}% 
+\contentsline {subsection}{\numberline {1.11.1}Recording Lectures and Recitations}{7}{subsection.1.11.1}% 
+\contentsline {section}{\numberline {1.12}Accommodations for Students with Disabilities}{8}{section.1.12}% 
+\contentsline {section}{\numberline {1.13}Statement of Support for Students\IeC {\textquoteright } Health \& Well-being}{8}{section.1.13}% 
