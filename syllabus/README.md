@@ -1,1 +1,2 @@
-# 15281 Homeworks
+# syllabus
+make syllabus/syllabus.pdf
