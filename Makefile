@@ -100,3 +100,9 @@ panopto: panopto/panopto.xml panopto/panopto.pdf
 upload_panopto: NO=5
 upload_panopto: FILE=panopto/panopto
 upload_panopto: panopto upload_xml_pdf
+
+
+youtube: youtube/youtube.xml youtube/youtube.pdf
+upload_youtube: NO=6
+upload_youtube: FILE=youtube/youtube
+upload_youtube: youtube upload_xml_pdf
