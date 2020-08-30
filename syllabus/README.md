@@ -1,2 +1,2 @@
 # syllabus
-make syllabus/syllabus.pdf
+make syllabus/template.pdf
